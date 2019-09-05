@@ -1,5 +1,6 @@
 # Raspberrypi systemctl for AI cam.
 ====
+![systemctl](https://raw.githubusercontent.com/wiki/linuxkay/raspberrypi_systemctl/images/recording_service.gif)
 
 Overview
 
