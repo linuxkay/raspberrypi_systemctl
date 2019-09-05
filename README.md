@@ -39,4 +39,4 @@ sudo systemctl enable recording.service
 
 ## Author
 
-[tcnksm](https://github.com/linuxkay)
+[linuxkay](https://github.com/linuxkay)
