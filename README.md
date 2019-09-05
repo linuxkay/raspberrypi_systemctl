@@ -4,6 +4,14 @@ For controlling AI cam.
 
 Overview
 
+systemctl services for controlling AI CAM
+files
+
+detecting.service
+- Detect objects based on model which you trained.
+recording.service
+- Record detected object for 10 seconds and save it to mp4.
+
 ## Description
 This repository provides systemctl servies for AI cam created in using opencv.
 You can make things simple insted of using bash and cron to run python opencv.
@@ -37,7 +45,7 @@ sudo systemctl enable recording.service
 ## Contribution
 
 ## Licence
-
+[MIT]
 
 ## Author
 
