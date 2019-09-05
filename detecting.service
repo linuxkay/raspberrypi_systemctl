@@ -1,0 +1,10 @@
+Description=Laser Machine Listener  
+
+[Service]
+ExecStart=/bin/bash -c '/usr/bin/python3.5m -u detecting.py'
+WorkingDirectory=/home/pi/Workspace          
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
