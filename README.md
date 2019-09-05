@@ -1,5 +1,4 @@
-# raspberrypi_systemctl
-For controlling AI cam.
+# Raspberrypi systemctl for AI cam.
 ====
 
 Overview
@@ -24,7 +23,7 @@ You can make things simple insted of using bash and cron to run python opencv.
 It used to be running your program every boot requires you to write crontab and bash script some times.
 This became much simpler by using systemctl.
 
-## Requirement
+## Requirements
 Linux has systemd
 
 python3 anaconda if you wish to use.
