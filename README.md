@@ -18,8 +18,8 @@ This became much simpler by using systemctl.
 
 ## Requirement
 Linux has systemd
-python3
-anaconda if you wish to use.
+
+python3 anaconda if you wish to use.
 ## Usage
 add services /lib/systemd/system/recording.service
 
