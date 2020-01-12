@@ -1,7 +1,7 @@
 Description=Laser Machine Listener  
 
 [Service]
-ExecStart=/bin/bash -c '/home/pi/berryconda3/envs/opencv3.3/bin/python3 -u recording.py'
+ExecStart=/bin/bash -c 'cd /home/pi/Workspace/ && /home/pi/berryconda3/envs/opencv3.3/bin/python3 -u recording_cv2Writer.py'
 WorkingDirectory=/home/pi/Workspace         
 Restart=always
 User=pi
