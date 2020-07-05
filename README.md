@@ -20,8 +20,8 @@ You can make things simple insted of using bash and cron to run python opencv.
 ## Demo
 
 ## VS. 
-It used to be running your program every boot requires you to write crontab and bash script some times.
-This became much simpler by using systemctl.
+It used to be running your program every boot by adding @reboot on crontab. It requires you to write crontab and bash script some times.
+This became much simpler by using this systemctl method.
 
 ## Requirements
 Linux has systemd
